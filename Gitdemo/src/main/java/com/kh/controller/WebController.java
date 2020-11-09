@@ -11,5 +11,9 @@ public class WebController {
 	public String sayHello() {
 		   return "Hello World";
 	}
+	//written by another developer
+	@GetMapping("/hi")
+	public String sayHi() {
+		return "Hi World";
 
 }
